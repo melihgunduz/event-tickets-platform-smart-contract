@@ -1,11 +1,22 @@
-# Sample Hardhat Project
+# Event Tickets NFT Platform Smart Contract
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a
-Hardhat Ignition module that deploys that contract.
+This contract is created for event ticket marketplace platform. You can buy and go enjoy with this tickets. Also you can
+sell this tickets P2P.
 
-Try running some of the following tasks:
+### Future Ideas
+
+* Auction system for P2P sales.
+* Large scale usable tickets.
+
+### Roadmap
+
+#### Q4 2024
+
+* Launch WEB project.
+
+***
+Run test commands with
 
 ```shell
-npx hardhat help
 npx hardhat test
 ```
