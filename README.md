@@ -48,7 +48,7 @@ events is simple, secure, and community-driven, bringing people together through
 * Deploy the smart contract on the Scroll Blockchain.
 
 ### Track contract with:
-* Marketplace: 0xd2b084c6c21d3508ca3b518e25749a7145094d47
+* Marketplace: https://sepolia.scrollscan.com/address/0xd2b084c6c21d3508ca3b518e25749a7145094d47
 
 ***
 Run test commands with
