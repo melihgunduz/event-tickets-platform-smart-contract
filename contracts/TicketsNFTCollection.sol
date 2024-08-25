@@ -13,9 +13,9 @@ contract TicketsNFTCollection is ERC721, ERC721URIStorage, ERC721Pausable, Ownab
     uint8 public transferFeeRate; // Max 8%
 
     // string memory tokenName, string memory tokenSymbol will added constructor
-    constructor(uint256 _listPrice, uint8 _transferFeeRate)
-    ERC721("AwesomeTicket", "ATK")
-    Ownable(msg.sender)
+    constructor(uint256 _listPrice, uint8 _transferFeeRate, string memory tokenName, string memory tokenSymbol, address owner)
+    ERC721(tokenName, tokenSymbol)
+    Ownable(owner)
     {
         require(_transferFeeRate > 0 && _transferFeeRate <= 8, "Royal rate could be max 8% and bigger than 0");
         listPrice = _listPrice;

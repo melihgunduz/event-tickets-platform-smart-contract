@@ -10,7 +10,7 @@ const TicketsNFTCollectionModule = buildModule('TicketsNFTCollectionModule', (m)
   const transferFeeRate = m.getParameter('transferFeeRate', customTransferFeeRate);
 
   const ticketsNFTCollection = m.contract('TicketsNFTCollection', [listPrice, transferFeeRate]);
-
+  
   return { ticketsNFTCollection };
 });
 
